@@ -299,7 +299,7 @@ button.white{
 
     background-image: url(images/barner.webp);
     width: 100%;
-    height: 20vh;
+    height: 40vh;
     background-size: cover;
     background-position: center;
     opacity: 0.7;
@@ -572,6 +572,104 @@ footer a:hover{
 footer .copyright{
     width: 100%;
     text-align: center;
+}
+
+
+
+/*shop html*/
+
+/*shop banner*/
+#shopbanner{
+    background-image: url(images/shop.html/shopbanner.jpg);
+    height: 70vh;
+    background-position: top 15% left 200%;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+#shopbanner h2{
+    color: #088178;
+}
+
+
+/*pagination*/
+#pagination {
+text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: green;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-weight: 600;
+    font-size: 16px;   
+}
+
+
+/*single product details*/
+#productdetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#productdetails .single-product-img{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.single-product-small-img-group{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.single-product-small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#productdetails .single-product-details{
+    width: 50%;
+    padding: 30px;
+}
+
+#productdetails .single-product-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#productdetails .single-product-details h2{
+    font-size: 26px
+}
+
+#productdetails .single-product-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#productdetails .single-product-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#productdetails .single-product-details button{
+    background-color: rgb(240, 156, 53);
+}
+
+#productdetails .single-product-details span{
+    line-height: 26px;
 }
 
 /*responsiveness*/
