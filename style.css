@@ -678,6 +678,40 @@ text-align: center;
 }
 
 /*responsiveness*/
+@media (max-width: 1250px) {
+    #shopbanner {
+        background-position: top 15% left 180%;
+    }
+
+    #shopbanner h2 {
+        padding-left: 160px;
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    #shopbanner {
+        background-position: top 15% left 100%;
+    }
+
+    #shopbanner h2 {
+        padding-left: 160px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 850px) {
+    #shopbanner {
+        background-position: top 15% left 80%;
+    }
+
+    #shopbanner h2 {
+        padding-left: 160px;
+        font-size: 40px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .section-p1 {
